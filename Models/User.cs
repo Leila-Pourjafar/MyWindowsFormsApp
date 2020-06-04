@@ -1,4 +1,6 @@
 ﻿
+using Models.Enums;
+
 namespace Models
 {
     public class User : BaseEntity
@@ -46,5 +48,7 @@ namespace Models
 
         /*******************/
         public string Description { get; set; }
+
+        public RegisterType? RegisterTypeId { get; set; }
     }
 }

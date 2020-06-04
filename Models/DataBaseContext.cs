@@ -15,6 +15,9 @@ namespace Models
         }
         /*******************/
         public System.Data.Entity.DbSet<User> Users { get; set; }
+
+        /*******************/
+        public System.Data.Entity.DbSet<Category> Categories { get; set; }
         /*******************/
     }
 }
